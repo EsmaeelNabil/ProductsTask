@@ -1,6 +1,9 @@
  #####  ( MVVM + MVI's States ) - Usecases Approach - Room Caching - Secrets - Dependency invertion & injection
 
+
 ### [Download APK](https://drive.google.com/file/d/1rfnx864WSn_-9nRdRvGVH3NqGUTKwBX-/view?usp=sharing)
+### [Base Structure is Copied from my own structure here](https://github.com/EsmaeelNabil/refresh-starter-template/tree/hilt)
+
 
 ### Features
 * [Hiding secretKeys in properties Files using gradle secrets](https://github.com/google/secrets-gradle-plugin)
@@ -30,3 +33,14 @@
 token_header_name="Authorization"
 base_url="https://api.github.com/"
 ```
+
+
+<br>
+<br>
+<p align="center">
+    <img src="./art/screen.png">
+    <br>
+</p>
+<br>
+<br>
+
