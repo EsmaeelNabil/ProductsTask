@@ -9,7 +9,9 @@ import com.esmaeel.check24_challenge.data.remote.models.products.UiProductItem
 import com.esmaeel.check24_challenge.databinding.ProductsDetailsActivityBinding
 import com.esmaeel.check24_challenge.utils.ktx.showToast
 import com.skydoves.bundler.bundle
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ProductDetailsActivity :
     BaseActivity<ProductsDetailsActivityBinding, ProductDetailsViewModel>(R.layout.products_details_activity) {
 

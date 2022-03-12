@@ -13,46 +13,6 @@
             android:id="@+id/includedToolbar"
             layout="@layout/app_default_top_bar" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/productsFilterRecycler"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorGray2"
-            android:clipChildren="false"
-            android:clipToPadding="false"
-            android:orientation="horizontal"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            tools:itemCount="10"
-            tools:listitem="@layout/filter_item" />
-
-        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-            android:id="@+id/swipeToRefresh"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/productsListRecycler"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:clipChildren="false"
-                    android:clipToPadding="false"
-                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                    tools:itemCount="10"
-                    tools:listitem="@layout/available_product_item" />
-
-                <include
-                    android:id="@+id/errorLayout"
-                    layout="@layout/error_with_retry_layout"
-                    android:visibility="gone" />
-
-            </LinearLayout>
-        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
-
 
     </LinearLayout>
 
